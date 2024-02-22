@@ -25,6 +25,7 @@ To complete this lab, follow each of the steps below.
     1. You should also notice that 2017 has fewer games than previous years. Guess why? Yes, it indicates this data was likely collected midway through the 2017 season. This is something we should keep in mind, especially when comparing sums of statistics across seasons.
     1. You're almost there. However, this visualization is still not "number of games played per year". Why? How to fix the issue?
         * *Hint: read the actual data to figure out why. And modify the Rows formula to fix the issue.*
+        *  *Hint: `Edit in shelf` to do the calculation
     1. After you fix the measure, drag it from *Rows* to *Measures* to create a new measure. Rename it to `Number of Games` so that you can reuse it later.
 4. Now we want to visualize the win/loss proportions of each team by year using pie charts. Follow the steps below:
     1. Create another worksheet that contains a tabular visualization with the number of records by `Team`. This can be achieved by dragging the `Number of Records` measure to Rows, then dragging the `Team` dimension into the `Number of Records` bar in the visualization panel.
